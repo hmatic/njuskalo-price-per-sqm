@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Njuskalo price per sqm",
+  "version": "0.1.0",
+  "description": "Extend Njuskalo RealEstate UI with Price per SQM data",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.njuskalo.hr/prodaja-kuca*",
+        "*://www.njuskalo.hr/prodaja-stanova*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
