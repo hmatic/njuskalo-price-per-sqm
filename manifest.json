@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Njuskalo price per sqm",
+  "name": "Njuskalo Price per SQM",
   "version": "0.1.0",
-  "description": "Extend Njuskalo RealEstate UI with Price per SQM data",
+  "description": "Adds Price per SQM information to Njuškalo.hr real estate listings.",
 
   "content_scripts": [
     {
