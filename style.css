@@ -1,0 +1,15 @@
+/*
+Use these if you want shorter listing items:
+
+.EntityList--Standard .entity-features {
+  width: 20% !important;
+}
+
+.EntityList--Standard .entity-prices {
+  width: 80% !important;
+}
+*/
+
+.EntityList--Standard .entity-prices {
+  width: 100% !important;
+}

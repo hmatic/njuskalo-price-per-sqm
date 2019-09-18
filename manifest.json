@@ -11,7 +11,8 @@
         "*://www.njuskalo.hr/prodaja-kuca*",
         "*://www.njuskalo.hr/prodaja-stanova*"
       ],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["style.css"]
     }
   ]
 }
