@@ -5,6 +5,12 @@
   "version": "0.1.0",
   "description": "Adds Price per SQM information to Njuškalo.hr real estate listings.",
 
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+   "128": "logo.png"
+  },
+
   "content_scripts": [
     {
       "matches": [
