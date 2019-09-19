@@ -19,16 +19,7 @@ for (var i = listings.length - 1; i >= 0; i--) {
   var pricePerSqm = document.createElement("li");
   pricePerSqm.setAttribute("class", "price-item")
 
-  var amount = document.createElement("strong")
-  amount.appendChild(document.createTextNode(pricePerSqmCalculated))
-  amount.setAttribute("class","price")
-
-  var unit = document.createElement("span")
-  unit.appendChild(document.createTextNode(" eur/m2"))
-  unit.setAttribute("class", "currency")
-
-  pricePerSqm.appendChild(amount);
-  pricePerSqm.appendChild(unit);
+  pricePerSqm.innerHTML = `<strong class="price">${pricePerSqmCalculated}</strong><span class="currency"> eur/m2</span>`
 
   priceList.appendChild(pricePerSqm);
 }
