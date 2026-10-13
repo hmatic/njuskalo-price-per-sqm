@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Njuskalo Price per SQM",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds Price per SQM information to Njuškalo.hr real estate listings.",
 
   "icons": {
@@ -14,8 +14,9 @@
   "content_scripts": [
     {
       "matches": [
-        "*://www.njuskalo.hr/prodaja-kuca*",
-        "*://www.njuskalo.hr/prodaja-stanova*"
+        "https://*.njuskalo.hr/prodaja-kuca*",
+        "https://*.njuskalo.hr/prodaja-stanova*",
+        "https://*.njuskalo.hr/prodaja-zemljista*"
       ],
       "js": ["content.js"],
       "css": ["style.css"]
